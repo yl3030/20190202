@@ -6,7 +6,7 @@
 }
 /* 導覽列 */
 nav{
-    background: #F9C300;
+    background: white;
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -29,16 +29,20 @@ nav ol li:hover{
 
 nav ol li a{
     text-decoration: none;
-    color: white;
-    font-size: 18px;
+    color: #F9C300;
+    font-size: 20px;
     font-weight: 900;
 }
 
+#logo{
+    margin-top: -8px;
+}
+
 #logo img{
-    width: 90px;
+    width: 100px;
     background: #fff;
-    /* border-radius: 50%; */
-    /* padding: 10px; */
+    border-radius: 50%;
+    padding: 10px;
 }
 
 #logo img:hover{
